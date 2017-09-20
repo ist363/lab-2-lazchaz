@@ -1,0 +1,171 @@
+.bigblue, .bigred, .bigpurp, .biggold{
+    display: flex;
+}
+
+.biggreen{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lilblue{
+    height: 200px;
+    margin: 10px;
+    background-color: blue;
+    width: 50%;
+}
+
+.lilred1{
+    height: 200px;
+    margin: 10px;
+    background-color: red;
+    width: 30%;
+}
+
+.lilred2{
+    height: 200px;
+    margin: 10px;
+    background-color: red;
+    width: 60%;
+}
+
+.lilred3{
+    height: 200px;
+    margin: 10px;
+    background-color: red;
+    width: 30%;
+}
+
+.lilpurp1{
+    height: 200px;
+    margin: 10px;
+    background-color: purple;
+    width: 60%;
+}
+
+.lilpurp2{
+    height: 200px;
+    margin: 10px;
+    background-color: purple;
+    width: 30%;
+}
+
+.lilpurp3{
+    height: 200px;
+    margin: 10px;
+    background-color: purple;
+    width: 60%;
+}
+
+.lilgreen1{
+    height: 200px;
+    margin: 10px;
+    background-color: green;
+    width: 33%;
+}
+
+.lilgreen2{
+    height: 200px;
+    margin: 10px;
+    background-color: green;
+    width: 33%;
+}
+
+.lilgold1{
+    height: 200px;
+    margin: 10px;
+    background-color: gold;
+    width: 25%;
+}
+
+.lilgold2{
+    height: 200px;
+    margin: 10px;
+    background-color: gold;
+    width: 25%;
+}
+
+.lilgold3{
+    height: 200px;
+    margin: 10px;
+    background-color: gold;
+    width: 25%;
+    margin-left: auto;
+}
+
+/* ^^ Page one */
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    height: 100px;
+    background-color: #C73F3F
+}
+
+.container{
+    display: flex;
+    height: 100%;
+}
+
+section1{
+    display: flex;
+    background-color: #E9E9E9;
+    border: 3px;
+    border-style: solid;
+    border-color: gray;
+    margin: 10px;
+    float: left;
+    width: 75%;
+}
+
+section2{
+    display: flex;
+    background-color: #E9E9E9;
+    border: 3px;
+    border-style: solid;
+    border-color: gray;
+    margin: 10px;
+    float: right;
+    width: 25%;
+}
+
+footer{
+    height: 200px;
+    background-color: black;
+}
+
+/* ^^ Page two */
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxes{
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6{
+    display: flex;
+    margin: 10px;
+    width: 275px;
+    height: 195px;
+    background-color: orange
+}
